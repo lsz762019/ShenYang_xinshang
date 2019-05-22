@@ -1,0 +1,30 @@
+body{
+	width: 1920px;
+	height: auto;
+	margin: 0 auto;	
+}
+header{
+	width: 1920px;
+	height: auto;
+	margin: 0 auto;
+}
+.header{
+	width: 1920px;
+	height: 40px;
+	background: #333;
+}
+.Select_region{
+	font-size: 12px;
+	width: 92px;
+    height: 40px;
+    position: relative;
+    line-height: 40px;
+    text-align: center;
+    color: #999999;
+    float: left;
+    cursor: pointer;
+    margin-left: 180px;
+}
+.Select_region:hover{
+	background: #000;
+}
