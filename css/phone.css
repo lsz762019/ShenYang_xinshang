@@ -1,22 +1,27 @@
-header{
+header {
     width: 100%;
     /*height: 97px;*/
 }
-.herader{
+
+.herader {
     width: 100%;
 }
-.left{
+
+.left {
     float: left;
     margin-left: 2%;
     margin-top: 30px;
 }
-.header_menu{
+
+.header_menu {
     display: none;
 }
-.right{
+
+.right {
     display: none;
 }
-.toggle{
+
+.toggle {
     width: 42px;
     height: 25px;
     float: right;
@@ -24,120 +29,141 @@ header{
     margin-right: 3%;
     display: block;
 }
-.toggle ul{
+
+.toggle ul {
     width: 100%;
     height: 100%;
     cursor: pointer;
 }
-.toggle li{
+
+.toggle li {
     background: #34A9EE;
     width: 100%;
     height: 23%;
     margin-top: 8%;
 }
 /*------------------轮播图-----------------*/
-.change_img{
+.change_img {
     width: 100%;
     position: relative;
 }
-.change_img .big_box{
+
+.change_img .big_box {
     width: 100%;
     height: 187px;
 }
-.change_img .big_box .small_box{
+
+.change_img .big_box .small_box {
     width: 400%;
 }
-.change_img .big_box .small_box img{
+
+.change_img .big_box .small_box img {
     float: left;
     width: 25%;
     height: auto;
 }
 /*内容标题*/
-.title{
+.title {
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
 }
-.title .slect{
+
+.title .slect {
     width: 100%;
     margin: 0 auto;
 }
-.title .slect p:nth-child(1){
+
+.title .slect p:nth-child(1) {
     font-size: 30px;
     cursor: pointer;
 }
-.title .slect p:nth-child(1):hover{
+
+.title .slect p:nth-child(1):hover {
     text-decoration: underline;
 }
-.title .slect p:nth-child(2){
+
+.title .slect p:nth-child(2) {
     font-size: 16px;
     margin-top: 20px;
 }
 /*中心内容——图片*/
-.content{
+.content {
     width: 80%;
     margin: 0 auto;
     display: flex;
 }
-.content .img_all{
+
+.content .img_all {
     width: 100%;
 }
-.content .img_all div{
+
+.content .img_all div {
     float: left;
     width: 100%;
     height: 800px;
     margin-left: 4%;
     margin-top: 5%;
-    box-shadow:0px 0px 15px #ccc;
+    box-shadow: 0px 0px 15px #ccc;
     cursor: pointer;
 }
-.content .img_all div:hover{
-    box-shadow:0px 0px 15px #000;
+
+.content .img_all div:hover {
+    box-shadow: 0px 0px 15px #000;
 }
-.content .img_all img{
+
+.content .img_all img {
     width: 100%;
 }
-.more{
+
+.more {
     width: 170px;
     height: 50px;
     background: #336FC0;
     margin: 0 auto;
     display: block;
-    color:#fff;
+    color: #fff;
     font-size: 14px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.unite{
+
+.unite {
     display: none;
 }
 /*用户*/
-.user{
+.user {
     width: 100%;
     text-align: center;
     height: 767px;
 }
-.user_title{
+
+.user_title {
     width: 100%;
     margin: 0 auto;
     color: #666;
 }
-.user_title h1{
+
+.user_title h1 {
     margin-top: 8%;
     font-size: 30px;
     font-weight: normal;
 }
-.user_title p{
+
+.user_title p {
     font-size: 16px;
 }
-.user .user_all{
+
+.user .user_all {
     width: 80%;
     margin: 0 auto;
 }
-.user .user_all .user_le{
+
+.user .user_all .user_le {
     width: 100%;
 }
-.user .user_all .userName{
+
+.user .user_all .userName {
     width: 80%;
     margin-left: 2%;
     margin-top: 5%;
@@ -145,7 +171,8 @@ header{
     float: left;
     position: relative;
 }
-.user .user_all .userName .info_user{
+
+.user .user_all .userName .info_user {
     position: absolute;
     width: 20%;
     height: 40%;
@@ -153,11 +180,13 @@ header{
     overflow: hidden;
     float: left;
 }
-.user .user_all .userName .info_user img{
+
+.user .user_all .userName .info_user img {
     width: 100%;
     height: 100%;
 }
-.user .user_all .userName h3{
+
+.user .user_all .userName h3 {
     display: block;
     width: auto;
     height: 30px;
@@ -167,10 +196,12 @@ header{
     position: relative;
     cursor: pointer;
 }
-.user .user_all .userName h3:hover{
+
+.user .user_all .userName h3:hover {
     color: #35A9EE;
 }
-.user .user_all .userName h3::after{
+
+.user .user_all .userName h3::after {
     content: "";
     width: 50px;
     height: 2px;
@@ -179,41 +210,48 @@ header{
     position: absolute;
     bottom: -3px;
 }
-.user .user_all .userName p{
+
+.user .user_all .userName p {
     width: 60%;
     position: absolute;
     bottom: 0px;
     left: 20%;
     font-size: 14px;
-    color:#666;
+    color: #666;
 }
 /*底部*/
-footer{
+footer {
     width: 100%;
     height: 468px;
     background: #202122;
 }
-.footer{
+
+.footer {
     width: 80%;
     height: 468px;
 }
-footer .footer div{
+
+footer .footer div {
     float: left;
     width: 18%;
     height: 50%;
 }
-footer .footer div:nth-child(5){
+
+footer .footer div:nth-child(5) {
     width: 100%;
 }
-footer .footer .ft_cnt_last li{
+
+footer .footer .ft_cnt_last li {
     float: left;
 }
-footer .footer h4{
+
+footer .footer h4 {
     color: #fff;
     margin-top: 45px;
     position: relative;
 }
-footer .footer h4::after{
+
+footer .footer h4::after {
     content: "";
     width: 90%;
     height: 1px;
@@ -222,23 +260,27 @@ footer .footer h4::after{
     position: absolute;
     bottom: -10px;
 }
-footer .footer ul{
+
+footer .footer ul {
     width: 100%;
     margin-top: 35px;
 }
-footer .footer li{
+
+footer .footer li {
     color: #676767;
     font-size: 12px;
     margin-top: 5px;
 }
-footer .footer .footer_txt{
+
+footer .footer .footer_txt {
     width: 80%;
     font-size: 12px;
     color: #676767;
-    position:relative;
+    position: relative;
     margin-top: 20px;
 }
-footer .footer .footer_txt::after{
+
+footer .footer .footer_txt::after {
     content: "";
     display: inline-block;
     width: 100%;
@@ -248,13 +290,15 @@ footer .footer .footer_txt::after{
     top: 170px;
     left: -30px;
 }
-footer .footer .footer_txt p{
+
+footer .footer .footer_txt p {
     line-height: 30px;
     margin-left: -90px;
 }
+
 footer .footer div:nth-child(1),
 footer .footer div:nth-child(2),
 footer .footer div:nth-child(3),
-footer .footer div:nth-child(4){
+footer .footer div:nth-child(4) {
     display: none;
 }
