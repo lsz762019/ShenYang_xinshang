@@ -272,6 +272,13 @@ footer .footer li {
     margin-top: 5px;
 }
 
+footer .footer li {
+    color: #676767;
+    font-size: 12px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
 footer .footer .footer_txt {
     width: 80%;
     font-size: 12px;

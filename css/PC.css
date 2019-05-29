@@ -301,6 +301,18 @@ footer .footer li {
     color: #676767;
     font-size: 12px;
     margin-top: 5px;
+    cursor: pointer;
+}
+
+footer .footer li {
+    color: #676767;
+    font-size: 12px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+footer .footer li:hover {
+    color: #0E78CF;
 }
 
 footer .footer .footer_txt {
