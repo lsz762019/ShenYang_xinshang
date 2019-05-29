@@ -1,0 +1,189 @@
+header{
+    width: 100%;
+    /*height: 97px;*/
+}
+.herader{
+    width: 100%;
+}
+.left{
+    float: left;
+    margin-left: 2%;
+    margin-top: 30px;
+}
+.header_menu{
+    display: none;
+}
+.right{
+    display: none;
+}
+.toggle{
+    width: 42px;
+    height: 25px;
+    float: right;
+    margin-top: 28px;
+    margin-right: 3%;
+    display: block;
+}
+.toggle ul{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.toggle li{
+    background: #34A9EE;
+    width: 100%;
+    height: 23%;
+    margin-top: 8%;
+}
+/*------------------轮播图-----------------*/
+.change_img{
+    width: 100%;
+    position: relative;
+}
+.change_img .big_box{
+    width: 100%;
+    height: 187px;
+}
+.change_img .big_box .small_box{
+    width: 400%;
+}
+.change_img .big_box .small_box img{
+    float: left;
+    width: 25%;
+    height: auto;
+}
+/*内容标题*/
+.title{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.title .slect{
+    width: 100%;
+    margin: 0 auto;
+}
+.title .slect p:nth-child(1){
+    font-size: 30px;
+    cursor: pointer;
+}
+.title .slect p:nth-child(1):hover{
+    text-decoration: underline;
+}
+.title .slect p:nth-child(2){
+    font-size: 16px;
+    margin-top: 20px;
+}
+/*中心内容——图片*/
+.content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.content .img_all{
+    width: 100%;
+}
+.content .img_all div{
+    float: left;
+    width: 100%;
+    height: 800px;
+    margin-left: 4%;
+    margin-top: 5%;
+    box-shadow:0px 0px 15px #ccc;
+    cursor: pointer;
+}
+.content .img_all div:hover{
+    box-shadow:0px 0px 15px #000;
+}
+.content .img_all img{
+    width: 100%;
+}
+.more{
+    width: 170px;
+    height: 50px;
+    background: #336FC0;
+    margin: 0 auto;
+    display: block;
+    color:#fff;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.unite{
+    display: none;
+}
+/*用户*/
+.user{
+    width: 100%;
+    text-align: center;
+    height: 767px;
+}
+.user_title{
+    width: 100%;
+    margin: 0 auto;
+    color: #666;
+}
+.user_title h1{
+    margin-top: 8%;
+    font-size: 30px;
+    font-weight: normal;
+}
+.user_title p{
+    font-size: 16px;
+}
+.user .user_all{
+    width: 80%;
+    margin: 0 auto;
+}
+.user .user_all .user_le{
+    width: 100%;
+}
+.user .user_all .userName{
+    width: 80%;
+    margin-left: 2%;
+    margin-top: 5%;
+    height: 160px;
+    float: left;
+    position: relative;
+}
+.user .user_all .userName .info_user{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+.user .user_all .userName .info_user img{
+    width: 100%;
+    height: 100%;
+}
+.user .user_all .userName h3{
+    display: block;
+    width: auto;
+    height: 30px;
+    float: left;
+    margin-left: 25%;
+    margin-top: 2%;
+    position: relative;
+    cursor: pointer;
+}
+.user .user_all .userName h3:hover{
+    color: #35A9EE;
+}
+.user .user_all .userName h3::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #35A9EE;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+}
+.user .user_all .userName p{
+    width: 60%;
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    font-size: 14px;
+    color:#666;
+}
